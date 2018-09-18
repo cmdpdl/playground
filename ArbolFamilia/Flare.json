@@ -1,271 +1,378 @@
 ﻿{
-    "name": "Teresa/Jose",
+  "name": "Teresa",
+  "spouse": "Jose", 
+  "DOB": "17/05/1891",
   "children": [
     {
-      "name": "Matilde/Jose Luis",
+      "name": "Matilde",
+      "spouse": "Jose Luis Pecker",
+      "occ": "",
+      "DOB": "28/07/1925",
       "children": [
         {
-          "name": "Beatriz/Daniel",
+          "name": "Beatriz",
+          "spouse": "Daniel",
+          "DOB": "1955",
           "children": [
             {
-              "name": "Adrian"
+              "name": "Adrian",
+              "DOB": "1985"
             },
             {
-              "name": "Marcos"
+              "name": "Marcos",
+              "DOB": "1995"
             }
           ]
         },
         {
-          "name": "Jose Luis/Inmaculada",
+          "name": "Jose Luis",
+          "spouse": "Inmaculada Muñoz",
+          "DOB": "19/11/1956",
           "children": [
             {
-              "name": "Rodrigo"
+              "name": "Rodrigo",
+              "DOB": "2000"
             },
             {
-              "name": "Enrique"
+              "name": "Enrique",
+              "DOB": "DD/MM/YYYY"
             }
           ]
         },
         {
-          "name": "Cachito/Gordon",
+          "name": "Cachito",
+          "spouse": "Gordon",
+          "DOB": "01/10/1957",
           "children": [
             {
-              "name": "Waby"
+              "name": "Waby",
+              "DOB": "1988"
             },
             {
-              "name": "Pancho"
+              "name": "Pancho",
+              "DOB": "1993"
             },
             {
-              "name": "Jara"
+              "name": "Jara",
+              "DOB": "1995"
             }
           ]
         },
         {
-          "name": "Cristina/Antonio",
+          "name": "Cristina",
+          "spouse": "Antonio Herrero",
+          "DOB": "1959",
           "children": [
             {
-              "name": "Carlos/Consuelo",
+              "name": "Carlos",
+              "spouse": "Consuelo Villar",
+              "DOB": "1983",
               "children": [
                 {
-                  "name": "Ayelen"
+                  "name": "Ayelen",
+                  "DOB": "DD/MM/YYYY"
                 },
                 {
-                  "name": "Luna"
+                  "name": "Luna",
+                  "DOB": "DD/MM/YYYY"
                 }
               ]
             },
             {
-              "name": "Alvar"
+              "name": "Alvar",
+              "DOB": "1985"
             },
             {
-              "name": "Cristina"
+              "name": "Cristina",
+              "DOB": "1992"
             },
             {
-              "name": "Lucas"
+              "name": "Lucas",
+              "DOB": "1995"
+            }
+          ]
+        },
+        {
+          "name": "Carlos",
+          "spouse": "Rocio",
+          "DOB": "10/10/1960",
+          "children": [
+            {
+              "name": "Carlos",
+              "DOB": "1998"
+            },
+            {
+              "name": "Teresa",
+              "DOB": "1999"
+            },
+            {
+              "name": "Maria",
+              "DOB": "DD/MM/YYYY"
+            },
+            {
+              "name": "Salvador",
+              "DOB": "DD/MM/YYYY"
+            },
+            {
+              "name": "Matilde",
+              "DOB": "DD/MM/YYYY"
+            }
+          ]
+        },
+        {
+          "name": "Ana",
+          "spouse": "Javier",
+          "DOB": "17/01/1962",
+          "children": [
+            {
+              "name": "Nicolas",
+              "DOB": "1988"
+            },
+            {
+              "name": "Alberto",
+              "DOB": "1992"
             }
           ]
 
         },
         {
-          "name": "Carlos/Rocio",
+          "name": "David",
+          "spouse": "Julia Matesanz",
+          "DOB": "29/10/1964",
           "children": [
             {
-              "name": "Carlos"
+              "name": "Noe",
+              "DOB": "22/10/1995"
             },
             {
-              "name": "Teresa"
+              "name": "Ruth",
+              "DOB": "16/12/1997"
             },
             {
-              "name": "Maria"
+              "name": "Simon",
+              "DOB": "DD/MM/YYYY"
             },
             {
-              "name": "Salvador"
-            },
-            {
-              "name": "Matilde"
+              "name": "Andres",
+              "DOB": "DD/MM/YYYY"
             }
           ]
         },
         {
-          "name": "Ana/Javier",
-          "children": [
-            {
-              "name": "Nicolas"
-            },
-            {
-              "name": "Alberto"
-            }
-          ]
-
-        },
-        {
-          "name": "David/Julia",
-          "children": [
-            {
-              "name": "Noe"
-            },
-            {
-              "name": "Ruth"
-            },
-            {
-              "name": "Simon"
-            },
-            {
-              "name": "Andres"
-            }
-          ]
-        },
-        {
-          "name": "Ruth"
+          "name": "Ruth",
+          "DOB": "10/1/1967"
         }
       ]
     },
     {
-      "name": "Jose Ramon/Concha",
+      "name": "Jose Ramon",
+      "occ": "Ingr. Caminos",
+      "spouse": "Concha Halcón",
+      "DOB": "12/08/1926",
+      "tel": 954417759,
       "children": [
         {
-          "name": "Jose"
+          "name": "Jose",
+          "occ": "Arquitecto",
+          "DOB": "08/04/1962",
+          "tel": 649142511
         },
         {
-          "name": "Maria/Antonio",
+          "name": "Maria",
+          "occ": "Ingr. Tec. Agricola",
+          "spouse": "Antonio Alvear",
+          "DOB": "02/10/1964",
+          "tel": 610203552,
           "children": [
             {
-              "name": "Antonio"
+              "name": "Antonio",
+              "DOB": "02/05/2000"
             }
           ]
         }
       ]
     },
     {
-      "name": "Carlos/Colo",
+      "name": "Tere",
+      "DOB": "20/05/1928"
+    },
+    {
+      "name": "Chus",
+      "spouse": "Santos Díaz",
+      "DOB": "25/04/1929",
       "children": [
         {
-          "name": "Maria/Oscar",
+          "name": "Santos",
+          "spouse": "Nitida Pastor",
+          "DOB": "12/08/1962",
           "children": [
             {
-              "name": "Carlos"
+              "name": "Santos",
+              "DOB": "DD/MM/YYYY"
             },
             {
-              "name": "Ana"
+              "name": "Nitida",
+              "DOB": "DD/MM/YYYY"
             }
           ]
         },
         {
-          "name": "Carlos Jose/Eva",
+          "name": "Carlos Manuel",
+          "spouse": "Thais Edwards",
+          "DOB": "31/12/1963",
           "children": [
             {
-              "name": "Adela"
-            }
-          ]
-        },
-        {
-          "name": "Yago/Raquel",
-          "children": [
-            {
-              "name": "Alejandra"
+              "name": "Thais Maria",
+              "DOB": "25/10/1994"
             },
             {
-              "name": "Gabriela"
+              "name": "Carlos William",
+              "DOB": "11/04/1997"
             }
           ]
         },
         {
-          "name": "Sura/Ramon"
+          "name": "Maria Jesus",
+          "spouse": "Fernando",
+          "DOB": "09/05/1965",
+          "children": [
+            {
+              "name": "Chusina",
+              "DOB": "DD/MM/YYYY"
+            },
+            {
+              "name": "Laura",
+              "DOB": "DD/MM/YYYY"
+            }
+          ]
+        },
+        {
+          "name": "Maria Paz",
+          "spouse": "Carlos Manuel",
+          "DOB": "18/11/1968",
+          "children": [
+            {
+              "name": "Sandra",
+              "DOB": "2000"
+            }
+          ]
         }
       ]
     },
     {
-      "name": "Ernesto/Concha"
-    },
-    {
-      "name": "Chus/Santos",
+      "name": "Carlos",
+      "spouse": "Colo Taboada",
+      "DOB": "16/02/1931",
       "children": [
         {
-          "name": "Santos/Nitida",
+          "name": "Maria",
+          "spouse": "Oscar",
+          "DOB": "1966",
           "children": [
             {
-              "name": "Santos"
+              "name": "Carlos",
+              "DOB": "DD/MM/YYYY"
             },
             {
-              "name": "Nitida"
+              "name": "Ana",
+              "DOB": "DD/MM/YYYY"
             }
           ]
         },
         {
-          "name": "Carlos Manuel/Thais",
+          "name": "Carlos Jose",
+          "spouse": "Eva Rodriguez",
+          "DOB": "1968",
           "children": [
             {
-              "name": "Thais Maria"
-            },
-            {
-              "name": "Carlos William"
+              "name": "Adela",
+              "DOB": "DD/MM/YYYY"
             }
           ]
         },
         {
-          "name": "Maria Jesus/Fernando",
+          "name": "Yago",
+          "spouse": "Raquel Escamilla",
+          "DOB": "1975",
           "children": [
             {
-              "name": "Chusina"
+              "name": "Alejandra",
+              "DOB": "DD/MM/YYYY"
             },
             {
-              "name": "Laura"
+              "name": "Gabriela",
+              "DOB": "DD/MM/YYYY"
             }
           ]
         },
         {
-          "name": "Maria Paz/Carlos Manuel",
-          "children": [
-            {
-              "name": "Sandra"
-            }
-          ]
+          "name": "Sura",
+          "spouse": "Ramon",
+          "DOB": "1982"
         }
       ]
     },
     {
-      "name": "Tere"
+      "name": "Ernesto",
+      "spouse": "Concha",
+      "DOB": "05/1932"
     },
     {
-      "name": "Carmina/Jorge",
+      "name": "Carmina",
+      "spouse": "Jorge Subirana",
+      "DOB": "16/11/1934",
       "children": [
         {
-          "name": "Bruno/Graciela",
+          "name": "Elena",
+          "spouse": "Miguel Angel",
+          "DOB": "1969",
           "children": [
             {
-              "name": "Luis"
+              "name": "Miguel",
+              "DOB": "DD/MM/YYYY"
             },
             {
-              "name": "Pablo"
+              "name": "Cristina",
+              "DOB": "DD/MM/YYYY"
             }
           ]
         },
         {
-          "name": "Elena/Miguel Angel",
+          "name": "Bruno",
+          "spouse": "Graciela",
+          "DOB": "1970",
           "children": [
             {
-              "name": "Miguel"
+              "name": "Luis",
+              "DOB": "DD/MM/YYYY"
             },
             {
-              "name": "Cristina"
+              "name": "Pablo",
+              "DOB": "DD/MM/YYYY"
             }
           ]
         },
         {
-          "name": "Tole/Laura",
+          "name": "Tole",
+          "occ": "Quimico",
+          "spouse": "Laura de Villegas",
+          "DOB": "16/10/1976",
           "children": [
             {
-              "name": "Julia"
+              "name": "Julia",
+              "DOB": "17/04/2010"
             },
             {
-              "name": "Elena"
+              "name": "Elena",
+              "DOB": "19/06/2012"
             }
           ]
         }
       ]
     },
     {
-      "name": "Fernando"
+      "name": "Fernando",
+      "DOB": "1936"
     }
   ]
 }
