@@ -35,7 +35,7 @@
             },
             {
               "name": "Enrique",
-              "DOB": "DD/MM/YYYY"
+              "DOB": "2002"
             }
           ]
         },
@@ -99,23 +99,23 @@
           "children": [
             {
               "name": "Carlos",
-              "DOB": "1998"
+              "DOB": "15/03/1998"
             },
             {
               "name": "Teresa",
-              "DOB": "1999"
+              "DOB": "21/09/1999"
             },
             {
               "name": "Maria",
-              "DOB": "DD/MM/YYYY"
+              "DOB": "15/11/2001"
             },
             {
               "name": "Salvador",
-              "DOB": "DD/MM/YYYY"
+              "DOB": "13/04/2004"
             },
             {
               "name": "Matilde",
-              "DOB": "DD/MM/YYYY"
+              "DOB": "13/05/2008"
             }
           ]
         },
@@ -150,11 +150,11 @@
             },
             {
               "name": "Simon",
-              "DOB": "DD/MM/YYYY"
+              "DOB": "30/01/2002"
             },
             {
               "name": "Andres",
-              "DOB": "DD/MM/YYYY"
+              "DOB": "30/04/2004"
             }
           ]
         },
@@ -208,11 +208,11 @@
           "children": [
             {
               "name": "Santos",
-              "DOB": "DD/MM/YYYY"
+              "DOB": "27/07/1995"
             },
             {
               "name": "Nitida",
-              "DOB": "DD/MM/YYYY"
+              "DOB": "11/03/1998"
             }
           ]
         },
@@ -249,11 +249,11 @@
         {
           "name": "Maria Paz",
           "spouse": "Carlos Manuel",
-          "DOB": "18/11/1968",
+          "DOB": "18/11/1967",
           "children": [
             {
               "name": "Sandra",
-              "DOB": "2000"
+              "DOB": "14/02/2000"
             }
           ]
         }
@@ -315,7 +315,7 @@
     {
       "name": "Ernesto",
       "spouse": "Concha",
-      "DOB": "05/1932"
+      "DOB": "21/05/1932"
     },
     {
       "name": "Carmina",

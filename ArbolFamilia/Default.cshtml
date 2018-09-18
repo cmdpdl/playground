@@ -98,7 +98,8 @@
             .attr("dy", ".40em")
             .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
             .text(function (d) { return d.DOB; })
-            .style("fill-opacity", 2);
+            .style("fill-opacity", 2)
+            .style("font", "8px sans-serif");
 
 
         // Transition nodes to their new position.
