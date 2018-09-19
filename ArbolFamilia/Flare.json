@@ -1,6 +1,6 @@
 ﻿{
-  "name": "Teresa",
-  "spouse": "Jose", 
+  "name": "Teresa de Lama",
+  "spouse": "Jose Perez",
   "DOB": "17/05/1891",
   "children": [
     {
@@ -8,11 +8,13 @@
       "spouse": "Jose Luis Pecker",
       "occ": "",
       "DOB": "28/07/1925",
+      "tel": 999999999,
       "children": [
         {
           "name": "Beatriz",
-          "spouse": "Daniel",
+          "spouse": "Daniel Gomez-España",
           "DOB": "1955",
+          "tel": 999999999,
           "children": [
             {
               "name": "Adrian",
@@ -28,6 +30,7 @@
           "name": "Jose Luis",
           "spouse": "Inmaculada Muñoz",
           "DOB": "19/11/1956",
+          "tel": 999999999,
           "children": [
             {
               "name": "Rodrigo",
@@ -43,6 +46,7 @@
           "name": "Cachito",
           "spouse": "Gordon",
           "DOB": "01/10/1957",
+          "tel": 999999999,
           "children": [
             {
               "name": "Waby",
@@ -62,6 +66,7 @@
           "name": "Cristina",
           "spouse": "Antonio Herrero",
           "DOB": "1959",
+          "tel": 999999999,
           "children": [
             {
               "name": "Carlos",
@@ -94,8 +99,9 @@
         },
         {
           "name": "Carlos",
-          "spouse": "Rocio",
+          "spouse": "Rocio Gayarre",
           "DOB": "10/10/1960",
+          "tel": 999999999,
           "children": [
             {
               "name": "Carlos",
@@ -123,6 +129,7 @@
           "name": "Ana",
           "spouse": "Javier",
           "DOB": "17/01/1962",
+          "tel": 999999999,
           "children": [
             {
               "name": "Nicolas",
@@ -139,6 +146,7 @@
           "name": "David",
           "spouse": "Julia Matesanz",
           "DOB": "29/10/1964",
+          "tel": 999999999,
           "children": [
             {
               "name": "Noe",
@@ -200,11 +208,13 @@
       "name": "Chus",
       "spouse": "Santos Díaz",
       "DOB": "25/04/1929",
+      "tel": 916331925,
       "children": [
         {
           "name": "Santos",
           "spouse": "Nitida Pastor",
           "DOB": "12/08/1962",
+          "tel": 999999999,
           "children": [
             {
               "name": "Santos",
@@ -220,6 +230,7 @@
           "name": "Carlos Manuel",
           "spouse": "Thais Edwards",
           "DOB": "31/12/1963",
+          "tel": 999999999,
           "children": [
             {
               "name": "Thais Maria",
@@ -233,8 +244,9 @@
         },
         {
           "name": "Maria Jesus",
-          "spouse": "Fernando",
+          "spouse": "Fernando Casas",
           "DOB": "09/05/1965",
+          "tel": 999999999,
           "children": [
             {
               "name": "Chusina",
@@ -248,8 +260,9 @@
         },
         {
           "name": "Maria Paz",
-          "spouse": "Carlos Manuel",
+          "spouse": "Carlos M. Villoslada",
           "DOB": "18/11/1967",
+          "tel": 999999999,
           "children": [
             {
               "name": "Sandra",
@@ -263,10 +276,11 @@
       "name": "Carlos",
       "spouse": "Colo Taboada",
       "DOB": "16/02/1931",
+      "tel": 999999999,
       "children": [
         {
           "name": "Maria",
-          "spouse": "Oscar",
+          "spouse": "Oscar Piñero",
           "DOB": "20/11/1966",
           "children": [
             {
@@ -283,6 +297,7 @@
           "name": "Carlos Jose",
           "spouse": "Eva Rodriguez",
           "DOB": "09/02/1968",
+          "tel": 999999999,
           "children": [
             {
               "name": "Adela",
@@ -294,6 +309,7 @@
           "name": "Yago",
           "spouse": "Raquel Escamilla",
           "DOB": "07/11/1975",
+          "tel": 999999999,
           "children": [
             {
               "name": "Alejandra",
@@ -308,24 +324,28 @@
         {
           "name": "Sura",
           "spouse": "Ramon",
-          "DOB": "25/04/1982"
+          "DOB": "25/04/1982",
+          "tel": 999999999
         }
       ]
     },
     {
       "name": "Ernesto",
       "spouse": "Concha",
-      "DOB": "21/05/1932"
+      "DOB": "21/05/1932",
+      "tel": 999999999
     },
     {
       "name": "Carmina",
       "spouse": "Jorge Subirana",
       "DOB": "16/11/1934",
+      "tel": 999999999,
       "children": [
         {
           "name": "Elena",
           "spouse": "Miguel Angel",
           "DOB": "1969",
+          "tel": 999999999,
           "children": [
             {
               "name": "Miguel",
@@ -341,6 +361,7 @@
           "name": "Bruno",
           "spouse": "Graciela",
           "DOB": "1970",
+          "tel": 999999999,
           "children": [
             {
               "name": "Luis",
@@ -357,6 +378,7 @@
           "occ": "Quimico",
           "spouse": "Laura de Villegas",
           "DOB": "16/10/1976",
+          "tel": 999999999,
           "children": [
             {
               "name": "Julia",

@@ -2,17 +2,22 @@
     Layout = "~/_SiteLayout.cshtml";
     Page.Title = "Home Page";
 }
-<div id="body2">
-    <label>
-        Nacimiento<input type="radio" name="item" value="nacimiento" onclick="showGraph('nacimiento');" checked="checked">
-    </label>
-    <label>
-        Telefono<input type="radio" name="item" value="Telefono" onclick="showGraph('telefono');">
-    </label>
-    <label>
-        Profesion<input type="radio" name="item" value="Occupation" onclick="showGraph('occupation');">
-    </label>
-</div>
+<table style="width:100%" id="body2">
+    <tr>
+        <th style="width:25%">
+            Nacimiento<input type="radio" name="item" value="nacimiento" onclick="showGraph('nacimiento');" checked="checked">
+        </th>
+        <th style="width:25%">
+            Telefono<input type="radio" name="item" value="Telefono" onclick="showGraph('telefono');">
+        </th>
+        <th style="width:25%">
+            Profesion<input type="radio" name="item" value="Occupation" onclick="showGraph('occupation');">
+        </th>
+        <th style="width:25%">
+            Esposo/a<input type="radio" name="item" value="Occupation" onclick="showGraph('consorte');">
+        </th>
+    </tr>
+</table>
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
@@ -111,7 +116,16 @@
                     .style("fill-opacity", 2)
                     .style("font", "8px sans-serif");
 
-            } else if (option == "occupation") {
+            } else if (option == "consorte") {
+                nodeEnter.append("text")
+                    .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                    .attr("dy", ".40em")
+                    .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                    .text(function (d) { return d.spouse; })
+                    .style("fill-opacity", 2)
+                    .style("font", "10px sans-serif");
+            }
+            else if (option == "occupation") {
                 nodeEnter.append("text")
                     .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
                     .attr("dy", ".40em")
