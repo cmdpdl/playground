@@ -14,7 +14,10 @@
             Profesion<input type="radio" name="item" value="Occupation" onclick="showGraph('occupation');">
         </th>
         <th style="width:25%">
-            Esposo/a<input type="radio" name="item" value="Occupation" onclick="showGraph('consorte');">
+            Esposo/a<input type="radio" name="item" value="Consorte" onclick="showGraph('consorte');">
+        </th>
+        <th style="width:25%">
+            Todo<input type="radio" name="item" value="Todo" onclick="showGraph('todo');">
         </th>
     </tr>
 </table>
@@ -96,43 +99,88 @@
                 .attr("dy", "-.40em")
                 .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
                 .text(function (d) { return d.name; })
-                .style("fill-opacity", 1e-6);
+                .style("fill-opacity", 1);
 
-            if (option == "nacimiento") {
-                nodeEnter.append("text")
-                    .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
-                    .attr("dy", ".40em")
-                    .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
-                    .text(function (d) { return d.DOB; })
-                    .style("fill-opacity", 2)
-                    .style("font", "8px sans-serif");
-            }
-            else if (option == "telefono") {
-                nodeEnter.append("text")
-                    .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
-                    .attr("dy", ".40em")
-                    .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
-                    .text(function (d) { return d.tel; })
-                    .style("fill-opacity", 2)
-                    .style("font", "8px sans-serif");
-
-            } else if (option == "consorte") {
-                nodeEnter.append("text")
-                    .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
-                    .attr("dy", ".40em")
-                    .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
-                    .text(function (d) { return d.spouse; })
-                    .style("fill-opacity", 2)
-                    .style("font", "10px sans-serif");
-            }
-            else if (option == "occupation") {
-                nodeEnter.append("text")
-                    .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
-                    .attr("dy", ".40em")
-                    .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
-                    .text(function (d) { return d.occ; })
-                    .style("fill-opacity", 2)
-                    .style("font", "8px sans-serif");
+            switch (option) {
+                case ("nacimiento"):
+                    nodeEnter.append("text")
+                        .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                        .attr("dy", ".40em")
+                        .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                        .text(function (d) { return d.DOB; })
+                        .style("fill-opacity", 2)
+                        .style("font", "8px sans-serif");
+                    break;
+                case ("telefono"):
+                    nodeEnter.append("text")
+                        .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                        .attr("dy", ".40em")
+                        .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                        .text(function (d) { return d.tel; })
+                        .style("fill-opacity", 2)
+                        .style("font", "8px sans-serif");
+                    break;
+                case ("consorte"):
+                    nodeEnter.append("text")
+                        .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                        .attr("dy", ".40em")
+                        .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                        .text(function (d) { return d.spouse; })
+                        .style("fill-opacity", 2)
+                        .style("font", "11px sans-serif");
+                    break;
+                case ("occupation"):
+                    nodeEnter.append("text")
+                        .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                        .attr("dy", ".40em")
+                        .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                        .text(function (d) { return d.occ; })
+                        .style("fill-opacity", 2)
+                        .style("font", "8px sans-serif");
+                    break;
+                case ("todo"):
+                    var delta = -0.1;
+                    nodeEnter.filter(function (d) { return d.DOB != null })
+                        .append("text")
+                            .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                            .attr("dy", function (d) {
+                                return delta + 0.4 + "em";
+                            })
+                            .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                            .text(function (d) { return d.DOB; })
+                            .style("fill-opacity", 2)
+                            .style("font", "8px sans-serif");
+                    //nodeEnter.filter(function (d) { return (d.occ != null) })
+                    //    .append("text")
+                    //        .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                    //        .attr("dy", function (d) {
+                    //            return delta + 1.2 + "em";
+                    //        })
+                    //        .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                    //        .text(function (d) { return d.occ; })
+                    //        .style("fill-opacity", 2)
+                    //        .style("font", "8px sans-serif");
+                    nodeEnter.filter(function (d) { return d.spouse != null })
+                        .append("text")
+                            .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                            .attr("dy", function (d) {
+                                return delta + 1.2 + "em";
+                            })
+                            .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                            .text(function (d) { return d.spouse; })
+                            .style("fill-opacity", 2)
+                            .style("font", "10px sans-serif");
+                    nodeEnter.filter(function (d) { return d.tel != null })
+                        .append("text")
+                            .attr("x", function (d) { return d.children || d._children ? -10 : 10; })
+                            .attr("dy", function (d) {
+                                return delta + 2.4 + "em";
+                            })
+                            .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
+                            .text(function (d) { return d.tel; })
+                            .style("fill-opacity", 2)
+                            .style("font", "8px sans-serif");
+                    break;
             }
             // Transition nodes to their new position.
             var nodeUpdate = node.transition()
